@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Graphs - animated on scroll, responsive, data-driven</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<p>&nbsp;</p> 
+
+<div class="chartBarsWrap">
+    <div class="chartBars chartBars1">
+        <ul class="numbers">
+            <li><span>100%</span></li>
+            <li><span>80%</span></li>
+            <li><span>60%</span></li>
+            <li><span>40%</span></li>
+            <li><span>20%</span></li>
+            <li><span>0%</span></li>
+        </ul>
+        <ul class="bars">
+            <li>
+                <span class="tooltip"> 
+                <span class="tooltipContent">in 2019, we averaged a 79% signal accuracy</span>
+                <div data-percentage="79" class="bar greenBar trigger"></div>
+                </span>
+                <b>2019</b>
+            </li>
+            <li>
+                <span class="tooltip">  
+                <span class="tooltipContent">in 2020, we averaged an 82% signal accuracy.</span>
+                <div data-percentage="82" class="bar blueBar trigger"></div>
+                </span> 
+                <b>2020</b> 
+            </li>
+            <li>
+                <span class="tooltip"> 
+                <span class="tooltipContent">in 2021, we averaged an 84% signal accuracy</span>
+                <div data-percentage="84" class="bar orangeBar trigger"></div>
+                </span>
+                <b>2021</b>
+            </li>
+            <li>
+                <span class="tooltip"> 
+                <span class="tooltipContent">in 2022, we averaged up to an 86% signal accuracy</span> 
+                <div data-percentage="86" class="bar purpleBar trigger"></div>    
+                </span>
+                <b>2022</b>   
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
